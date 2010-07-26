@@ -1,0 +1,14 @@
+This is a minimal Rails application that demonstrates cross-site login with Tender.
+
+I created it to test some single-sign on features in Tender, but thought a
+demo might be useful to others. It took a couple plugins, one gem dependency,
+a generator and a few lines of code. Total dev time was maybe 30 minutes.
+
+To use:
+
+  $ bundle install
+  $ open app/models/user.rb # change TENDER_SITE and TENDER_SSO_KEY.
+  $ rails server
+
+Have fun.
+
